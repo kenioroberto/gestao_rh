@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'apps.empresas',
     'apps.funcionarios',
     'apps.departamentos',
+    'apps.documentos',
+    'apps.registro_hora_extra',
 
 ]
 
@@ -59,7 +61,7 @@ ROOT_URLCONF = 'gestao_rh.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
