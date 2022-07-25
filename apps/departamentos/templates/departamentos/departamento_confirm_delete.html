@@ -5,7 +5,7 @@
 
 <form method="POST">
     {% csrf_token %}
-    <h1>Deseja deletar o {{ object }} ?</h1>
+    <h1>Deseja deletar o {{ obj }} ?</h1>
     {{ form }}
     <button type="submit" class="btn btn-danger">Confirma</button>
 </form>
