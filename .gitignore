@@ -1,2 +1,5 @@
 *.sqlite3
 venv
+.idea
+*pyc
+gestao_rh/__pycache__/
