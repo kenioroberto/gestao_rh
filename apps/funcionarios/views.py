@@ -1,7 +1,3 @@
-from msilib.schema import ListView
-from django.http import HttpResponse
-from django.shortcuts import render
-from django.http import HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import ListView, UpdateView, DeleteView, CreateView
 from .models import Funcionario
