@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ['54.85.5.149']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -140,7 +139,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 
 LOGIN_REDIRECT_URL = 'home'
 
