@@ -7,7 +7,7 @@
 <br>
 {% for registro_re in object_list %}
 
-<a href="{% url 'update_hora_estra' registro_re.id %}">{{ registro_re }}</a>
+<a href="{% url 'update_hora_estra_base' registro_re.id %}">{{ registro_re }}</a>
 <a href="{% url 'delete_hora_estra' registro_re.id %}">Deletar</a>
 <br>
 
@@ -18,4 +18,5 @@
 {% endif %}
 
 <br><a href="{% url 'create_hora_estra' %}" class="btn btn-info">Novo</a>
+<a href="{% url 'exportar_csv' %}" class="btn btn-info">Exportar CSV</a>
 {% endblock %}
